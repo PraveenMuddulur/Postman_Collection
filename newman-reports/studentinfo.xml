@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="StudentDetails" tests="7" time="0.000">
+  <testsuite name="GET Students" id="917598b7-9c5e-43d6-9547-ba3e4404846b" timestamp="2026-06-29T04:48:39.206Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+]]></system-err>
+    <testcase name="Status code 200" time="0.000" classname="GetStudents">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 65cf2493-b161-4f91-8e85-dca0c18ae6d2.]]>
+        <![CDATA[Collection name: StudentDetails.]]>
+        <![CDATA[Request name: GET Students.]]>
+        <![CDATA[Test description: Status code 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="CREATE Student" id="cac7a1c0-fda8-43e2-a161-b5a0090e0ec4" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="GET Specific Student" id="1449bcaf-003c-4a03-ba18-97d458ad2a02" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="UPDATE Student" id="72b3df75-ea6a-432b-8291-1a7565a74adf" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Create Student Address" id="c570a663-c806-479c-8ff8-ce5230bd023b" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Final Student Details" id="8b13a599-a8bf-4df1-b3e6-3764b4efb5a7" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Delete Student" id="ad2be9b6-98fb-460c-a9f0-f2eb9e6b4438" timestamp="2026-06-29T04:48:39.206Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+</testsuites>
