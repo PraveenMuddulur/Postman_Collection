@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="FakeRESTApi" tests="27" time="5.536">
-  <testsuite name="Activities / GET Activites" id="29a051b8-c46d-45f9-b884-d18c178f4f53" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.689"/>
-  <testsuite name="Activities / POST Activities" id="82ad30a0-857b-487a-bae6-bf1a7fdb1186" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.140"/>
-  <testsuite name="Activities / GET Id wise Activities" id="924416a0-853a-4603-8015-e6ce9c4deeeb" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.171"/>
-  <testsuite name="Activities / PUT Activities" id="ff44813e-0822-46a8-8ec9-3eb562c7bed7" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.135"/>
-  <testsuite name="Activities / DELETE Activity" id="28ea8166-327c-4990-bc9c-fc0733843cdd" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.137"/>
-  <testsuite name="Authors / GET Authors" id="47ef7c99-7a34-41bd-8e39-e9b54e07acc2" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.460"/>
-  <testsuite name="Authors / POST Authors" id="5af2259d-f4a1-4945-94e6-1e3e14093ff8" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.284"/>
-  <testsuite name="Authors / GET Authors books" id="87790c86-e962-4430-b715-4b4a0f27c0eb" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.147"/>
-  <testsuite name="Authors / GET Id wise Author" id="24103bb3-8192-49b6-9c35-f6467b57317e" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.146"/>
-  <testsuite name="Authors / Update Authors Id wise" id="06ac5c23-1c0c-4ebd-ab24-9718696e3990" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.205"/>
-  <testsuite name="Authors / DELETE Authors" id="3480a69a-ad2e-4392-b569-84fcbcb89390" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.139"/>
-  <testsuite name="Books / GET Books" id="3a0edb62-21a1-4de6-a8c3-d50088d5030b" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.368"/>
-  <testsuite name="Books / POST Books" id="f5d0cfb4-bdfd-4c94-88c9-ee6d4dea972b" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.184"/>
-  <testsuite name="Books / GET Id wise Books" id="3c47d3b5-4b39-4bf6-8bea-09559cc74e4f" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.198"/>
-  <testsuite name="Books / Update Books Id wise" id="09c4509d-f39c-4130-bb51-071a1655d0c7" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.141"/>
-  <testsuite name="Books / DELETE Books" id="c4f02632-9da9-4050-8a53-b44baab50c57" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.210"/>
-  <testsuite name="Cover Photos / GET CoverPhotos" id="2a396d30-d272-427c-96ac-cd6245effafb" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.140"/>
-  <testsuite name="Cover Photos / POST CoverPhotos" id="5f4c0043-2ed0-4451-885a-fffd453c3ec2" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.145"/>
-  <testsuite name="Cover Photos / GET CoverPhotos books" id="91463066-4910-43d6-a14a-b2ee330dbde4" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.134"/>
-  <testsuite name="Cover Photos / GET Id wise CoverPhotos" id="152b33e9-a9e1-4446-a27e-6025e13abfda" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.142"/>
-  <testsuite name="Cover Photos / Update CoverPhotos Id wise" id="3ee2ac64-f2a1-4161-be64-8c7267b55159" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.206"/>
-  <testsuite name="Cover Photos / DELETE CoverPhotos" id="95bbd359-a7e6-4a33-8c16-70ebb597cf6f" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.136"/>
-  <testsuite name="Users / GET Users" id="e7df77a2-c96b-47c4-9141-4f66c9773222" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.160"/>
-  <testsuite name="Users / POST Users" id="a8716ee1-76cf-40a6-9aab-ced67ef66a27" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.200"/>
-  <testsuite name="Users / GET Id wise Users" id="e79c3cbf-e413-48a4-bb4a-a6ad8565dc96" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.238"/>
-  <testsuite name="Users / Update Users Id wise" id="26ee1e7d-23ef-45d1-b91b-3c5b9af6c3b9" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.135"/>
-  <testsuite name="Users / DELETE Users" id="fee5ad17-78c5-4ffd-ad1a-21dc86526842" timestamp="2026-06-29T04:51:25.933Z" tests="0" failures="0" errors="0" time="0.146"/>
+<testsuites name="FakeRESTApi" tests="27" time="5.665">
+  <testsuite name="Activities / GET Activites" id="c56dd268-bfff-433b-82c7-a1b2888a5a3d" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.683"/>
+  <testsuite name="Activities / POST Activities" id="32a61b2b-ec91-4d0e-aa60-ef5b97b3140b" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.225"/>
+  <testsuite name="Activities / GET Id wise Activities" id="2a26c5ff-948f-4c4b-9f31-a8bd64a100a4" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.141"/>
+  <testsuite name="Activities / PUT Activities" id="57188bfe-b8ae-448b-8875-54da30c5b7d4" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.139"/>
+  <testsuite name="Activities / DELETE Activity" id="a2141b19-34ea-4cb3-bb6d-74742930af67" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Authors / GET Authors" id="f843e76a-ee7f-410b-94fa-59f7420c2138" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.282"/>
+  <testsuite name="Authors / POST Authors" id="12061236-d6a9-4554-9f03-71f71d7c7c81" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.224"/>
+  <testsuite name="Authors / GET Authors books" id="86c3d8f9-a799-43d6-886b-ababfda96376" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Authors / GET Id wise Author" id="7c4a6b19-084b-4b20-9caf-cc2b3e59c8aa" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.138"/>
+  <testsuite name="Authors / Update Authors Id wise" id="ed904181-b491-44d6-bafc-350e032d954e" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.213"/>
+  <testsuite name="Authors / DELETE Authors" id="e8f6a923-523c-4493-8fa2-a288cb60dd35" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.208"/>
+  <testsuite name="Books / GET Books" id="a389cc90-fe29-4d0b-a2ac-4577e2500598" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.312"/>
+  <testsuite name="Books / POST Books" id="87cfd4d7-e8b9-43b8-bbad-c29ecb624a13" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.141"/>
+  <testsuite name="Books / GET Id wise Books" id="9eace38b-1801-42d2-be9f-b1c115bfdd56" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.138"/>
+  <testsuite name="Books / Update Books Id wise" id="d6c151ed-ec62-4a30-86b8-94e046178ba9" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.207"/>
+  <testsuite name="Books / DELETE Books" id="7a304db5-ba6d-4640-af88-6473b0e53aad" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Cover Photos / GET CoverPhotos" id="2dc841c8-d88f-436f-a9cc-7146f5851af6" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.155"/>
+  <testsuite name="Cover Photos / POST CoverPhotos" id="e1818c94-90e9-4cd9-af75-5ad0e6111410" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Cover Photos / GET CoverPhotos books" id="d1b656e0-39e2-4a3f-8bb6-c936b4f47f40" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Cover Photos / GET Id wise CoverPhotos" id="bfb0abf4-14d1-4fd3-9d45-db981d37382e" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.402"/>
+  <testsuite name="Cover Photos / Update CoverPhotos Id wise" id="82c958f4-b5b7-445b-947c-e1dd6c111ca6" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Cover Photos / DELETE CoverPhotos" id="75746557-e9b2-422e-97ca-36d02e06a8c7" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.140"/>
+  <testsuite name="Users / GET Users" id="c3a501a5-7ec5-450b-adb8-d81e8152a336" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.139"/>
+  <testsuite name="Users / POST Users" id="30d78c1f-321a-4d07-8802-750da5eb2421" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Users / GET Id wise Users" id="bb6c966f-de3d-4f43-9420-b901ad8e995e" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Users / Update Users Id wise" id="be5fdc48-a500-49d7-ad88-58a6b6d5c24b" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.207"/>
+  <testsuite name="Users / DELETE Users" id="54f1c246-a834-4294-a070-8cb22cb99d87" timestamp="2026-06-29T04:56:26.988Z" tests="0" failures="0" errors="0" time="0.204"/>
 </testsuites>

@@ -6,7 +6,7 @@
   "scripts": {
     "test:booking": "newman run BookingApi/booking.postman_collection.json -e BookingApi/booking.postman_environment.json -r cli,junit,htmlextra --reporter-junit-export newman-reports/booking.xml --reporter-htmlextra-export newman-reports/booking.html",
     "test:fakerestapi": "newman run FakeRestApi/FakeRESTApi.postman_collection.json -e FakeRestApi/FakeRestApi.postman_environment.json -r cli,junit,htmlextra --reporter-junit-export newman-reports/fakerestapi.xml --reporter-htmlextra-export newman-reports/fakerestapi.html",
-    "test:studentinfo": "newman run StudentInfoApi/StudentDetails.postman_collection.json -r cli,junit,htmlextra --reporter-junit-export newman-reports/studentinfo.xml --reporter-htmlextra-export newman-reports/studentinfo.html",
+    "test:studentinfo": "newman run StudentInfoApi/StudentDetails.postman_collection.json -e StudentInfoApi/StudentDetails.postman_environment.json -r cli,junit,htmlextra --reporter-junit-export newman-reports/studentinfo.xml --reporter-htmlextra-export newman-reports/studentinfo.html",
     "test": "npm run test:booking && npm run test:fakerestapi && npm run test:studentinfo"
   },
   "devDependencies": {

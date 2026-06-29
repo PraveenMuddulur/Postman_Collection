@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="booking" tests="5" time="0.501">
-  <testsuite name="CREATE booking" id="538c48ce-f450-4b27-b109-dd1fc0415cff" timestamp="2026-06-29T04:48:30.682Z" tests="6" failures="0" errors="0" time="0.232">
-    <testcase name="Status code is 200" time="0.232" classname="CreateBooking"/>
-    <testcase name="The response has all properties" time="0.232" classname="CreateBooking"/>
-    <testcase name="Check booking id type number" time="0.232" classname="CreateBooking"/>
-    <testcase name="Successful POST request" time="0.232" classname="CreateBooking"/>
-    <testcase name="Generate Unsuccessful POST request" time="0.232" classname="CreateBooking"/>
+<testsuites name="booking" tests="5" time="0.459">
+  <testsuite name="CREATE booking" id="799baf63-dea4-49b1-b14d-517903842f7d" timestamp="2026-06-29T04:56:25.233Z" tests="6" failures="0" errors="0" time="0.177">
+    <testcase name="Status code is 200" time="0.177" classname="CreateBooking"/>
+    <testcase name="The response has all properties" time="0.177" classname="CreateBooking"/>
+    <testcase name="Check booking id type number" time="0.177" classname="CreateBooking"/>
+    <testcase name="Successful POST request" time="0.177" classname="CreateBooking"/>
+    <testcase name="Generate Unsuccessful POST request" time="0.177" classname="CreateBooking"/>
   </testsuite>
-  <testsuite name="GET booking" id="345e3d8c-fa9b-45fb-b452-a43897435296" timestamp="2026-06-29T04:48:30.682Z" tests="3" failures="0" errors="0" time="0.076">
-    <testcase name="Check all JSON positve result" time="0.076" classname="GetBooking"/>
-    <testcase name="Body matches string" time="0.076" classname="GetBooking"/>
-    <testcase name="Content-Type is present" time="0.076" classname="GetBooking"/>
+  <testsuite name="GET booking" id="cb10cd45-9210-4e51-85c9-5fd7f7c7abf6" timestamp="2026-06-29T04:56:25.233Z" tests="3" failures="0" errors="0" time="0.070">
+    <testcase name="Check all JSON positve result" time="0.070" classname="GetBooking"/>
+    <testcase name="Body matches string" time="0.070" classname="GetBooking"/>
+    <testcase name="Content-Type is present" time="0.070" classname="GetBooking"/>
   </testsuite>
-  <testsuite name="UPDATE booking" id="e4bbb214-1ed7-49ad-8b23-dfa3808690ad" timestamp="2026-06-29T04:48:30.682Z" tests="0" failures="0" errors="0" time="0.061"/>
-  <testsuite name="token" id="50f8b657-d28f-4048-8d13-ad9b9f483f38" timestamp="2026-06-29T04:48:30.682Z" tests="0" failures="0" errors="0" time="0.067"/>
-  <testsuite name="DELETE booking" id="816581b0-746d-4a50-b300-6ae210559c7e" timestamp="2026-06-29T04:48:30.682Z" tests="0" failures="0" errors="0" time="0.065"/>
+  <testsuite name="UPDATE booking" id="dcfc3d6a-c3ab-4e1f-9d84-097e04f96178" timestamp="2026-06-29T04:56:25.233Z" tests="0" failures="0" errors="0" time="0.072"/>
+  <testsuite name="token" id="0e7d94d0-c4b8-4720-a18f-448598e0b8d6" timestamp="2026-06-29T04:56:25.233Z" tests="0" failures="0" errors="0" time="0.072"/>
+  <testsuite name="DELETE booking" id="c60ec653-bd18-407b-a626-e3292b83ffd8" timestamp="2026-06-29T04:56:25.233Z" tests="0" failures="0" errors="0" time="0.068"/>
 </testsuites>
